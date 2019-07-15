@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mall[
+<!ELEMENT mall (product+)>
+<!ELEMENT product (price, name, expiry, weight, discount*)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT expiry (#PCDATA)>
+<!ELEMENT weight (#PCDATA)>
+<!ELEMENT discount (#PCDATA)>
+]>
+<mall>
+	<product>
+		<price>120</price>
+		<name>medicine1</name>
+		<expiry>09/2020</expiry>
+		<weight>55g</weight>
+		<discount>5%</discount>
+	</product>
+	<product>
+		<price>200</price>
+		<name>medicine2</name>
+		<expiry>12/2023</expiry>
+		<weight>120g</weight>
+	</product>
+	<product>
+		<price>350</price>
+		<name>medicine3</name>
+		<expiry>2/2025</expiry>
+		<weight>100g</weight>
+		<discount>10%</discount>
+	</product>
+</mall>

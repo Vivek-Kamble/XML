@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<employee xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="MyEmployee 1mar.xsd" xmlns="MyEmployee">
+	<ename prefix="Mr.">Arun</ename>
+	<age>23</age>
+	<dob>1998-03-05</dob>
+	<btime>15:12:30</btime>
+	<IsSenior>False</IsSenior>
+	<salary>1234.56</salary>
+</employee>

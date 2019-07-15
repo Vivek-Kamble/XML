@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<customer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="bankdetails bank.xsd" xmlns="bankdetails" >
+    <name>Vivek Kamble</name>
+    <balance>5000000</balance>
+    <DOB>1998-03-05</DOB>
+    <KYC>true</KYC>
+    <IFSC>SBIN001234</IFSC>
+    <Account>78457845844</Account>
+</customer>

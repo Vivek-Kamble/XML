@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns:t="to" xmlns:f="from">
+	<t:msg>
+		<t:info>sender</t:info>
+	</t:msg>
+	<f:msg>
+		<f:info>receiver</f:info>
+	</f:msg>
+</data>

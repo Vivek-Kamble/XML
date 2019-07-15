@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	elementFormDefault="qualified" targetNamespace="MyEmployee">
+	<xs:element name="employee">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="ename" type="xs:string">
+					<xs:complexType>
+						<xs:attribute name="prefix" type="xs:string" default="Mr."></xs:attribute>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="age" type="xs:integer"></xs:element>
+				<xs:element name="dob" type="xs:date"></xs:element>
+				<xs:element name="btime" type="xs:time"></xs:element>
+				<xs:element name="IsSenior" type="xs:boolean"></xs:element>
+				<xs:element name="salary" type="xs:decimal"></xs:element>
+			</xs:sequence>
+			<xs:attribute name="id" type="xs:integer" use="required"></xs:attribute>
+			<xs:attribute name="company" fixed="DEF Products"></xs:attribute>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

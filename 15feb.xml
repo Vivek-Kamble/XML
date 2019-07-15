@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<company>
+	<employee>
+		<name>Vivek</name>
+		<age>19</age>
+		<address>Kamothe</address>
+		<empid>1</empid>
+	</employee>
+	<employee>
+		<name>Chetan</name>
+		<age>19</age>
+		<address>Kamothe</address>
+		<empid>2</empid>
+	</employee>
+	<employee>
+		<name>Abhi</name>
+		<age>19</age>
+		<address>Panvel</address>
+		<empid>3</empid>
+	</employee>
+	<employee>
+		<name>Aditya</name>
+		<age>20</age>
+		<address>Kharghar</address>
+		<empid>4</empid>
+	</employee>
+</company>

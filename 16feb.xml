@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE company[
+<!ELEMENT company (employee+)>
+<!ELEMENT employee (name,age,address,empid,salary)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT empid (#PCDATA)>
+<!ELEMENT salary (#PCDATA)>
+<!ATTLIST address pincode CDATA "" >
+<!ATTLIST salary mode (cash|cheque|net) "cheque">
+]>
+<!--XML rules 
+DTD Document type declaration -->
+
+<company>
+	<employee>
+		<name>Vivek</name>
+		<age>19</age>
+		<address pincode="4545445">Kamothe</address>
+		<empid>1</empid>
+		<salary mode="net">18000</salary>
+	</employee>
+	<employee>
+		<name>Chetan</name>
+		<age>19</age>
+		<address pincode="4545445">Kamothe</address>
+		<empid>2</empid>
+		<salary mode="cash">14000</salary>
+	</employee>
+	<employee>
+		<name>Prakash</name>
+		<age>19</age>
+		<address pincode="4545445">Panvel</address>
+		<empid>3</empid>
+		<salary mode="net">15000</salary>
+	</employee>
+	<employee>
+		<name>Aditya</name>
+		<age>20</age>
+		<address pincode="4545445">Kharghar</address>
+		<empid>4</empid>
+		<salary>20000</salary>
+	</employee>
+</company>
